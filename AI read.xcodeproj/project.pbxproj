@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03AF6D02361D1DA0C3185C75 /* Pods_AI_read.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57487436FC4761F52462B077 /* Pods_AI_read.framework */; };
 		09187B0527223BD900C3744D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09187B0427223BD900C3744D /* AppDelegate.swift */; };
 		09187B0727223BD900C3744D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09187B0627223BD900C3744D /* SceneDelegate.swift */; };
 		09187B0927223BD900C3744D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09187B0827223BD900C3744D /* ViewController.swift */; };
 		09187B0C27223BD900C3744D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09187B0A27223BD900C3744D /* Main.storyboard */; };
 		09187B0E27223BDA00C3744D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09187B0D27223BDA00C3744D /* Assets.xcassets */; };
 		09187B1127223BDA00C3744D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09187B0F27223BDA00C3744D /* LaunchScreen.storyboard */; };
+		09187B192722436200C3744D /* AIread_splush_256.png in Resources */ = {isa = PBXBuildFile; fileRef = 09187B182722436200C3744D /* AIread_splush_256.png */; };
+		09187B1B272255F700C3744D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09187B1A272255F700C3744D /* HomeViewController.swift */; };
+		09187B21272256C400C3744D /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09187B20272256C400C3744D /* PostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,12 @@
 		09187B0D27223BDA00C3744D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09187B1027223BDA00C3744D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09187B1227223BDA00C3744D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09187B182722436200C3744D /* AIread_splush_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AIread_splush_256.png; sourceTree = "<group>"; };
+		09187B1A272255F700C3744D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		09187B20272256C400C3744D /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		32EADE289093FB568C697323 /* Pods-AI read.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI read.debug.xcconfig"; path = "Target Support Files/Pods-AI read/Pods-AI read.debug.xcconfig"; sourceTree = "<group>"; };
+		57487436FC4761F52462B077 /* Pods_AI_read.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AI_read.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC92FA0ADE83A641D1D87383 /* Pods-AI read.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AI read.release.xcconfig"; path = "Target Support Files/Pods-AI read/Pods-AI read.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AF6D02361D1DA0C3185C75 /* Pods_AI_read.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				09187B0327223BD900C3744D /* AI read */,
 				09187B0227223BD900C3744D /* Products */,
+				4F3662BF13FC3F7CC8B73E1E /* Pods */,
+				2C268815F2F7EF37EBEA92FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +72,32 @@
 				09187B0427223BD900C3744D /* AppDelegate.swift */,
 				09187B0627223BD900C3744D /* SceneDelegate.swift */,
 				09187B0827223BD900C3744D /* ViewController.swift */,
+				09187B1A272255F700C3744D /* HomeViewController.swift */,
+				09187B20272256C400C3744D /* PostViewController.swift */,
 				09187B0A27223BD900C3744D /* Main.storyboard */,
 				09187B0D27223BDA00C3744D /* Assets.xcassets */,
 				09187B0F27223BDA00C3744D /* LaunchScreen.storyboard */,
+				09187B182722436200C3744D /* AIread_splush_256.png */,
 				09187B1227223BDA00C3744D /* Info.plist */,
 			);
 			path = "AI read";
+			sourceTree = "<group>";
+		};
+		2C268815F2F7EF37EBEA92FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57487436FC4761F52462B077 /* Pods_AI_read.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F3662BF13FC3F7CC8B73E1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32EADE289093FB568C697323 /* Pods-AI read.debug.xcconfig */,
+				BC92FA0ADE83A641D1D87383 /* Pods-AI read.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09187B1527223BDA00C3744D /* Build configuration list for PBXNativeTarget "AI read" */;
 			buildPhases = (
+				7064BC2E993D7253F9F1196D /* [CP] Check Pods Manifest.lock */,
 				09187AFD27223BD900C3744D /* Sources */,
 				09187AFE27223BD900C3744D /* Frameworks */,
 				09187AFF27223BD900C3744D /* Resources */,
+				96F510E777DBD9524E0F7B49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09187B192722436200C3744D /* AIread_splush_256.png in Resources */,
 				09187B1127223BDA00C3744D /* LaunchScreen.storyboard in Resources */,
 				09187B0E27223BDA00C3744D /* Assets.xcassets in Resources */,
 				09187B0C27223BD900C3744D /* Main.storyboard in Resources */,
@@ -133,14 +169,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7064BC2E993D7253F9F1196D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AI read-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96F510E777DBD9524E0F7B49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AI read/Pods-AI read-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AI read/Pods-AI read-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AI read/Pods-AI read-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		09187AFD27223BD900C3744D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09187B21272256C400C3744D /* PostViewController.swift in Sources */,
 				09187B0927223BD900C3744D /* ViewController.swift in Sources */,
 				09187B0527223BD900C3744D /* AppDelegate.swift in Sources */,
 				09187B0727223BD900C3744D /* SceneDelegate.swift in Sources */,
+				09187B1B272255F700C3744D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +364,7 @@
 		};
 		09187B1627223BDA00C3744D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32EADE289093FB568C697323 /* Pods-AI read.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,11 +373,16 @@
 				DEVELOPMENT_TEAM = MTP32AE7U9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "AI read/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AI read";
+				INFOPLIST_KEY_NSCameraUsageDescription = "本アプリは、画像の投稿及び編集のため、カメラの使用許可を求めます。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "本アプリは、画像の投稿及び編集のため、ライブラリへの保存許可を求めます。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,12 +392,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		09187B1727223BDA00C3744D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC92FA0ADE83A641D1D87383 /* Pods-AI read.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,11 +407,16 @@
 				DEVELOPMENT_TEAM = MTP32AE7U9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "AI read/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AI read";
+				INFOPLIST_KEY_NSCameraUsageDescription = "本アプリは、画像の投稿及び編集のため、カメラの使用許可を求めます。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "本アプリは、画像の投稿及び編集のため、ライブラリへの保存許可を求めます。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +426,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
