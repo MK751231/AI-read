@@ -32,7 +32,7 @@ class PostViewController: UIViewController, UINavigationControllerDelegate, URLS
 
         let alert = UIAlertController(
             title: "ファイル転送",
-            message: "物件CDを入力してください",
+            message: "xxxxを入力してください",
             preferredStyle: UIAlertController.Style.alert)
         alert.addTextField(
             configurationHandler: {(textField: UITextField!) in
@@ -62,8 +62,7 @@ class PostViewController: UIViewController, UINavigationControllerDelegate, URLS
                             multipartFormData.append(textData!, withName: "upload_txt" , fileName: "test01.txt", mimeType: "text/plain")
                             multipartFormData.append(propertyCode!, withName: "upload_code" , fileName: "code.txt", mimeType: "text/plain")
                         },
-                        // to: "http://192.168.97.160/test2.php", method: .post
-                        to: "https://sf.489501.jp/kotei/d2b/test2.php", method: .post
+                        to: "http://192.168.97.160/test2.php", method: .post // for test
                         )
                         .response { resp in
                             switch resp.result {
